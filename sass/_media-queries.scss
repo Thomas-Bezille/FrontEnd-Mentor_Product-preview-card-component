@@ -1,0 +1,73 @@
+@media screen and (min-width: 1400px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .card {
+      width: 50%;
+      height: 60%;
+      display: flex;
+      .card-picture {
+        width: 50%;
+        object-fit: cover;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 0;
+      }
+      .desktop {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      .card-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .add-cart:hover {
+          background-color: #1a4031;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1399px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .card {
+      width: 80%;
+      height: 70%;
+      display: flex;
+      .card-picture {
+        width: 50%;
+        object-fit: cover;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 0;
+      }
+      .desktop {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      .card-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .add-cart:hover {
+          background-color: #1a4031;
+        }
+      }
+    }
+  }
+}
