@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Github: [Add solution URL here](https://your-solution-url.com)
-- Live: [Add live site URL here](https://your-live-site-url.com)
+- [Github](https://github.com/Thomas-Bezille/FrontEnd-Mentor_Product-preview-card-component)
+- [Live](https://front-end-mentor-product-preview-card-component-gamma.vercel.app/)
 
 ## My process
 
